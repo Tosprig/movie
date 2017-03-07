@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="mo" location="453,155" size="170,70">
+    <action name="submitAction" location="98,44" size="150,40" />
+  </package>
+</Struts2Diagram>
+

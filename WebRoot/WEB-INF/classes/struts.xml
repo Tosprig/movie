@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<package name="love" extends="struts-default">
+		<global-results>
+			<result name="love">love.jsp</result>
+		</global-results>
+		<action name="loveAddAction" class="love.action.AddAction"></action>
+		<action name="loveDeleteAction" class="love.action.DeleteAction"></action>
+	</package>
+	
+	<package name="animation" extends="struts-default">
+		<global-results>
+			<result name="animation">animation.jsp</result>
+		</global-results>
+		<action name="animationAddAction" class="animation.action.AddAction"></action>
+		<action name="animationDeleteAction" class="animation.action.DeleteAction"></action>
+	</package>
+	
+	<package name="mystery" extends="struts-default">
+		<global-results>
+			<result name="mystery">mystery.jsp</result>
+		</global-results>
+		<action name="mysteryAddAction" class="mystery.action.AddAction"></action>
+		<action name="mysteryDeleteAction" class="mystery.action.DeleteAction"></action>
+	</package>
+	
+	<package name="comedy" extends="struts-default">
+		<global-results>
+			<result name="comedy">comedy.jsp</result>
+		</global-results>
+		<action name="comedyAddAction" class="comedy.action.AddAction"></action>
+		<action name="comedyDeleteAction" class="comedy.action.DeleteAction"></action>
+	</package>
+	
+	<package name="struts2" extends="struts-default" namespace="/">
+    <action name="login" class="user.action.LoginAction">     
+        <result name="succlogin">/succlogin.jsp</result>  
+        <result name="error">/login.jsp</result>
+        <result name="input">/login.jsp</result> 
+      </action>
+    <action name="register" class="user.action.RegisterAction">     
+        <result name="success">/success.jsp</result>  
+      </action>
+  </package>
+ 
+</struts>    

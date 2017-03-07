@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+.animation{
+	background-color: #10B665;
+	}
+.comedy{
+	background-color: #FFDB3B;
+	}
+.love{
+	background-color:#FED5D3;
+	}
+.mystery{
+	background-color:#63C9C7;
+	}
+header{
+	text-align:center;
+	}
+main{
+	padding:30px;
+	padding-left:120px;
+	}
+main img{
+	width:80%;
+	height:470px;
+	}
+.allimg{
+	width:33%;
+	float:left;
+	}
+.allimg p{
+	text-align:center;
+	}
+.lastimg{
+	margin-left:300px;
+	}
+.lastimg img{
+	width:50%;
+	height:300px;
+	}
+.lastimg a{
+	text-decoration:none;
+	}
+span{
+	font-size:30px;
+	border:#FFFFFF solid medium;
+	border-radius:15px;
+	margin-left:330px;
+	margin-bottom:45px;
+	float:right;
+	}

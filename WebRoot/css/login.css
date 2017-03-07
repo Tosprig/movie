@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+.login
+	{
+	margig:30px;
+	text-align:center;
+    height:80px;
+	border-radius: 33px;
+	}
+	
+	
+footer{
+	text-align:center;
+	color:#acdbc9;
+	font-size:18px;
+	}
+	
+	.bigbang{
+	text-align:center;
+	color:#acdbc9;
+	font-size:25px;
+	margin-top:70px;
+	}
+	
+	.blank{
+	height:280px;
+	}
+	
+	.zhuce{
+	text-align:center;
+	}
